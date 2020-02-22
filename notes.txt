@@ -1,3 +1,4 @@
+TODO:
 todo:   Add Developer mode system [DONE]
 todo:   improve Debugger stability [DONE]
 todo:   use QsettingsSystem to store data [DONE]
@@ -9,3 +10,10 @@ todo:   Auto-getlatest sytem[done]
 todo:   ask for multiupdate when more then one package must be update
 todo:   use vcs manager to refactoring
 todo:   delete qwebengine process leak
+
+
+only developer
+add a _CustomMacro.ms in C:\Program Files\Autodesk\3ds Max 2020\stdplugs\stdscripts
+define into the _CustomMacro.ms:
+
+'''global TOOLDEBUG = true'''
