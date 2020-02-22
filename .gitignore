@@ -1,7 +1,7 @@
 #Custom Ingore
 sample_packages/
 .idea/
-
+BuildError.log
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
