@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PackageConfiguration</class>
+ <widget class="QWidget" name="PackageConfiguration">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>646</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>110</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>PackageConfiguration</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="8" column="0" rowspan="2" colspan="3">
+    <widget class="QWidget" name="vcs_widget" native="true">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item row="1" column="0">
+       <widget class="QLabel" name="client_lbl">
+        <property name="text">
+         <string>Client</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="client_edit"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QComboBox" name="vcs_combobox">
+        <item>
+         <property name="text">
+          <string>Perforce</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <widget class="QLabel" name="packageNameLbl">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+       <underline>true</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>Package Name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QComboBox" name="connectionType">
+     <item>
+      <property name="text">
+       <string>Local</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>FTP</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLineEdit" name="packageName"/>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLineEdit" name="networkPath"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="hostLbl">
+     <property name="text">
+      <string>Host</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="pathLbl">
+     <property name="text">
+      <string>Package path</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="passwordLbl">
+     <property name="text">
+      <string>Password</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="ftpPathLbl">
+     <property name="text">
+      <string>FTPPath</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QLineEdit" name="password"/>
+   </item>
+   <item row="3" column="2">
+    <widget class="QLineEdit" name="host"/>
+   </item>
+   <item row="4" column="2">
+    <widget class="QLineEdit" name="username"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="usernameLbl">
+     <property name="text">
+      <string>Username</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2">
+    <widget class="QLineEdit" name="ftppath"/>
+   </item>
+   <item row="7" column="0" colspan="3">
+    <widget class="QCheckBox" name="vcs_checkbox">
+     <property name="text">
+      <string>VCS Integration</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="2">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

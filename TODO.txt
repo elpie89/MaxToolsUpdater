@@ -1,0 +1,11 @@
+todo:   Add Developer mode system [DONE]
+todo:   improve Debugger stability [DONE]
+todo:   use QsettingsSystem to store data [DONE]
+todo:   make installer ftp and installer local, only the first one copy the folder
+        the local one add the entrypoint that point to the local folder (that could be versioned or not)[DONE]
+todo:   Add vcs perforce [DONE]
+
+todo:   Auto-getlatest sytem[done]
+todo:   ask for multiupdate when more then one package must be update
+todo:   use vcs manager to refactoring
+todo:   delete qwebengine process leak

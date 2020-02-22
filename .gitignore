@@ -1,3 +1,7 @@
+#Custom Ingore
+sample_packages/
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
