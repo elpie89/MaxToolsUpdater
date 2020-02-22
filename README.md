@@ -1,7 +1,7 @@
 # Max Tools Updater
 
 The Max Tools Updater is a 3ds Max tool, able to manage different "Packages" (a set of scripts and plugin), 
-and make sure each artist in a company is upd to date with all script and plugins requested by the production.
+and make sure each artist in a company is upd to date with all script and plugins required by the production.
 
 The Max Tools Updater is able to:
 1. Notify on Max startup when a new update is pushed
